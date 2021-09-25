@@ -23,8 +23,8 @@ class _LoginPageState extends State<LoginPage> {
             end: Alignment.bottomCenter,
             // ไล่เฉดจากสีแดงไปสีน้ำเงิน
             colors: [
-              Colors.white,
-              Colors.blue.shade100,
+              Colors.white54,
+              Colors.black45,
             ],
           ),
         ),
@@ -62,84 +62,84 @@ class _LoginPageState extends State<LoginPage> {
                               ? Icon(
                             Icons.circle,
                             size: 30.0,
-                            color: Colors.blue,
+                            color: Colors.black,
                           )
                               : Opacity(
                             opacity: 0.5,
                             child: Icon(
                               Icons.circle,
                               size: 30.0,
-                              color: Colors.blue,
+                              color: Colors.black,
                             ),
                           ),
                           input.length > 1
                               ? Icon(
                             Icons.circle,
                             size: 30.0,
-                            color: Colors.blue,
+                            color: Colors.black,
                           )
                               : Opacity(
                             opacity: 0.5,
                             child: Icon(
                               Icons.circle,
                               size: 30.0,
-                              color: Colors.blue,
+                              color: Colors.black,
                             ),
                           ),
                           input.length > 2
                               ? Icon(
                             Icons.circle,
                             size: 30.0,
-                            color: Colors.blue,
+                            color: Colors.black,
                           )
                               : Opacity(
                             opacity: 0.5,
                             child: Icon(
                               Icons.circle,
                               size: 30.0,
-                              color: Colors.blue,
+                              color: Colors.black,
                             ),
                           ),
                           input.length > 3
                               ? Icon(
                             Icons.circle,
                             size: 30.0,
-                            color: Colors.blue,
+                            color: Colors.black,
                           )
                               : Opacity(
                             opacity: 0.5,
                             child: Icon(
                               Icons.circle,
                               size: 30.0,
-                              color: Colors.blue,
+                              color: Colors.black,
                             ),
                           ),
                           input.length > 4
                               ? Icon(
                             Icons.circle,
                             size: 30.0,
-                            color: Colors.blue,
+                            color: Colors.black,
                           )
                               : Opacity(
                             opacity: 0.5,
                             child: Icon(
                               Icons.circle,
                               size: 30.0,
-                              color: Colors.blue,
+                              color: Colors.black,
                             ),
                           ),
                           input.length > 5
                               ? Icon(
                             Icons.circle,
                             size: 30.0,
-                            color: Colors.blue,
+                            color: Colors.black,
                           )
                               : Opacity(
                             opacity: 0.5,
                             child: Icon(
                               Icons.circle,
                               size: 30.0,
-                              color: Colors.blue,
+                              color: Colors.black,
                             ),
                           ),
                         ],
